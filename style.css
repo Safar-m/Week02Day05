@@ -1,0 +1,352 @@
+body{
+	margin:0px;
+	padding: 0px;
+}
+
+.box{
+width: 100%;
+}
+
+.main{
+width: 100%;
+height: 41em;
+background-image:url(hero.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+.menu{
+ width: 3em;
+ height: 2.5em;
+ background: transparent;
+ float: right;
+ margin:5em;
+}
+
+.mainText{
+	width:400px;
+	height: 2em;
+	background: transparent;
+	display: inline-block;
+	margin-top: 14em;
+	margin-left: 31em;
+	margin-bottom: 0px;
+}
+
+.mainText1{
+	width:450px;
+	height: 1.3em;
+	margin-left: 29em;
+}
+.h1{
+text-align: center;
+margin-left: 10px;
+color:#666666;
+margin:0px;
+letter-spacing: 11px;
+font-family:Arial, Helvetica, sans-serif; ;
+display: inline-block;
+font-size: 2.2em;
+}
+
+.button{
+	width: 270px;
+	height: 60px;
+	color:white;
+	background: #00b38f;
+	margin:auto;
+	margin-top: 3em;
+	box-shadow: 0px 5px 10px #006652;
+	border-radius: 5px;
+}
+.button:hover{
+	cursor: pointer;
+	box-shadow: 0px -2px 10px  #006652;
+}
+.h4{
+	margin-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.header{
+	width: 100%;
+	height: 390px;
+	background: #f2f2f2;
+}
+
+.inHeader{
+	width: 60em;
+	height: 20em;
+    position: relative;
+    top:40px;
+	background:#f2f2f2;
+	margin-left: 5em;
+}
+
+.HeaderHeadText,.SliderText{
+	margin-top: 0px;
+	margin-left: 25em;
+	margin-bottom: 0pc;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 3px;
+    color:#404040;
+}
+
+#headerText{
+	margin-top: 4em;
+	color:gray;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 2em;
+	margin-left: 17em;
+}
+
+.slider{
+	width: 100%;
+	background-color:white;
+	height: 40em;
+
+}
+.inSlider{
+	width: 365px;
+	height: 450px;
+	background-color: white;
+	margin-left: 4em;
+	margin-top: 4em;
+    float: left;
+} 
+.circle{
+	width: 10em;
+	height: 10em;
+	border-radius: 100%;
+	background-color: #00b38f;
+    margin: auto;
+	color:white;
+
+}
+.inSliderText{
+    width: 250px;
+    margin: auto;
+	color:#404040;
+	letter-spacing: 2px;
+    text-align: center;
+}
+.minus{
+    padding-left: 170px;
+    margin: auto;
+	color:#00b38f;
+}
+
+.icons{
+    
+	margin:auto;
+    padding: 48px 48px 48px 48px;
+	box-shadow: 5px 
+}
+
+.iphone{
+width: 100%;
+height: 38.5em; 
+background:url(iphone.png) no-repeat center center;
+background-color: white;
+}
+
+.iphoneDiv{
+	float:right;
+	width: 650px;
+	height: 38em;
+	background-color:white;
+	
+}
+
+.iphoneDivText{
+	color:#404040;
+	margin-left:13em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.pre{
+	font-size: 1.1em;
+	line-height: 1.5;
+	word-spacing: 1;
+	color:gray;
+}
+
+.plants{
+	width: 100%;
+	height: 315px;
+	background:url(plants.jpg) right center;
+}
+
+.inPlants{
+    background: transparent;
+	width: 30em;
+	height: 8em;
+	margin-top:30px;
+	margin-left: 26em;
+	position: absolute;
+	text-align: center;
+
+}
+
+.plantsText{
+	word-spacing:0.5em;
+	color:white;
+	line-height: 1.5;
+	font-family:Arial ,Helvetica ,sans-serif;
+	
+}
+
+.images{
+	width: 100%;
+	height: 10em;
+	background: white;
+}
+.down{
+    color: black;
+    margin: 0 auto;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    opacity:.6;
+    
+}
+
+.image{
+    width: 360px;
+    height: 220px;
+}
+
+.radio{
+    width:50px;
+    margin: auto;
+    clear: both;
+}
+
+.Line{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.InLine{
+    width: 180px;
+    height: 80pxpx;
+    border: 2px solid white;
+    font-family: Arial;
+    color:white;
+    margin-left: 560px;
+    position: absolute;
+    margin-top:70px;
+    padding: 20px;
+    
+    
+}
+.team{
+    width: 200px;
+    height: 200px;
+    margin-left: 5em;
+    
+}
+.tricon{
+    margin-left: 100px;
+}
+.icon1{
+    color: white;
+    padding: 12px 15px 15px 12px;
+    margin-left:10px;
+    width: 11px;
+    height: 11px;
+    float:left;
+    background-color: black;
+    border-radius: 50%;
+}
+.send{
+    width:100%;
+    height: 300px;
+    background-image: url(img/keyboard-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.form{
+    width: 600px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+#input{
+    color: black;
+    border: 4px solid white;
+    width: 350px;
+    height: 60px;
+    opacity: 0.3;
+}
+#button{
+    width: 80px;
+    height: 60px;
+    background-color: aquamarine;
+    opacity: 0.6;   
+}
+.SliderText1{
+    width: 200px;
+    margin: 0 auto;
+	font-family: Calibri, Helvetica, sans-serif;
+	letter-spacing: 3px;
+    color:#404040;
+}
+.footer{
+ 	width: 100%;
+ 	height: 37em;
+ 	background: #f2f2f2;
+ }
+ .inFooter{
+ 	width: 365px;
+	height: 202px;
+	background-color: white;
+	margin-left: 4em;
+	margin-top: 4em;
+    float: left;
+    font-family: Arial;
+ }
+ .infooterIcons{
+margin-left: 175px;
+ }
+
+ .tricon1{
+     position: absolute;
+     margin-top:300px;
+     margin-left: 600px;
+     width:300px;
+     clear: right;
+ }
+ #theEnd{
+ 	width:100%;
+ 	height: 130px;
+ 	background: #000d1a;
+ }
+ .inEnd1{
+ 	width: 15em;
+ 	height: 2em;
+ 	background: transparent;
+ 	position: absolute;
+ 	color:gray;
+ 	margin-top:4em;
+ 	margin-left: 10em;
+ 	display: inline-block;
+
+ }
+ #inEndText1{
+ 	margin-top:0px;
+ 	font-family: Arial;
+ 	display: inline-block;
+ 	color:gray;
+ }
+ .inEnd2{
+ 	width: 35em;
+ 	height: 2em;
+   float: right;
+   color:white;
+   display: inline-block;
+   margin-top: 4em;
+   margin-left: 10em;
+   font-family: Arial;
+ }
